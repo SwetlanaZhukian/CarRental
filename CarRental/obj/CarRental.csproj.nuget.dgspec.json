@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Светлана\\source\\repos\\CarRental\\CarRental\\CarRental.csproj": {}
+    "C:\\Users\\Женька\\Desktop\\Car\\CarRental\\CarRental\\CarRental.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Светлана\\source\\repos\\CarRental\\CarRental\\CarRental.csproj": {
+    "C:\\Users\\Женька\\Desktop\\Car\\CarRental\\CarRental\\CarRental.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Светлана\\source\\repos\\CarRental\\CarRental\\CarRental.csproj",
+        "projectUniqueName": "C:\\Users\\Женька\\Desktop\\Car\\CarRental\\CarRental\\CarRental.csproj",
         "projectName": "CarRental",
-        "projectPath": "C:\\Users\\Светлана\\source\\repos\\CarRental\\CarRental\\CarRental.csproj",
-        "packagesPath": "C:\\Users\\Светлана\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Светлана\\source\\repos\\CarRental\\CarRental\\obj\\",
+        "projectPath": "C:\\Users\\Женька\\Desktop\\Car\\CarRental\\CarRental\\CarRental.csproj",
+        "packagesPath": "C:\\Users\\Женька\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Женька\\Desktop\\Car\\CarRental\\CarRental\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Светлана\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Женька\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -44,6 +41,12 @@
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[3.1.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.7, )"
             }
           },
           "imports": [
@@ -64,7 +67,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
