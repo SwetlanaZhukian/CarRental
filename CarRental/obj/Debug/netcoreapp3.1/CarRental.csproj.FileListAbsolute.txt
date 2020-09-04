@@ -151,5 +151,4 @@ C:\Users\Женька\Desktop\Car\CarRental\CarRental\obj\Debug\netcoreapp3.1\Ca
 C:\Users\Женька\Desktop\Car\CarRental\CarRental\obj\Debug\netcoreapp3.1\CarRental.genruntimeconfig.cache
 C:\Users\Женька\Desktop\Car\CarRental\CarRental\obj\Debug\netcoreapp3.1\Razor\Views\Car\Index.cshtml.g.cs
 C:\Users\Женька\Desktop\Car\CarRental\CarRental\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
-C:\Users\Женька\Desktop\Car\CarRental\CarRental\obj\Debug\netcoreapp3.1\CarRental.csproj.CoreCompileInputs.cache
-C:\Users\Женька\Desktop\Car\CarRental\CarRental\obj\Debug\netcoreapp3.1\CarRental.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Женька\Desktop\Car\CarRental\CarRental\obj\Debug\netcoreapp3.1\Razor\Views\Order\Index.cshtml.g.cs

@@ -12,7 +12,7 @@ namespace CarRental.Models
         public DateTime End { get; set; }
         public string Comment  { get; set; }
 
-        public int UserId { get; set; }
+        public string UserId { get; set; }
         public User User { get; set; }
 
         public List<Car> Cars { get; set; }

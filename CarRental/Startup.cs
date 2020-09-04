@@ -10,6 +10,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using CarRental.Models;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity;
 
 namespace CarRental
 {
@@ -27,6 +28,7 @@ namespace CarRental
         {
             string connection = Configuration.GetConnectionString("DefaultConnection");
             services.AddDbContext<CarContext>(options => options.UseSqlServer(connection));
+            services.AddIdentity<User, IdentityRole>().AddEntityFrameworkStores<CarContext>();
             services.AddControllersWithViews();
         }
 
