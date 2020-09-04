@@ -19,10 +19,31 @@ namespace CarRental.Controllers
 
         public IActionResult Index()
         {
-            var order = new OrderViewModel();
-           //order.Id = context.Orders.Find(Id);
+            List<OrderViewModel> orders  = new List<OrderViewModel>();
+               
+                foreach (var order in context.Orders.ToList())
+                {
+
+                OrderViewModel orderVM = new OrderViewModel();
+
+                    orderVM.Id = order.Id;
+                    orderVM.Name = order.User.FirstName;
+                    orderVM.Start = order.Start;
+                    orderVM.End = order.End;
+                    orderVM.Comment = order.Comment;
+
+                    foreach (var car in order.Cars) 
+                    {
+                        orderVM.Mark = car.Mark;
+                        orderVM.Model = car.Model;
+                        orderVM.Price = car.Price ;
+                    }
+
+                orders.Add(orderVM);
+                }     
+           
             
-            return View(context.Orders.ToList());
+            return View(orders);
         }
     }
 }

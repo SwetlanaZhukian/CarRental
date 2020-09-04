@@ -1,5 +1,7 @@
-﻿@model IEnumerable<Order>
-@{Layout = null; }
+﻿@model IEnumerable<CarRental.Models.ViewModels.OrderViewModel>
+@{
+    Layout = null;         
+}
 <!DOCTYPE html>
 <html>
 <head>
@@ -24,14 +26,18 @@
             </tr>
         </thead>
         <tbody>
-            @foreach (var user in Model)
+            @foreach (var order in Model)
             {
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
+            <tr>
+                <td>@order.Id</td>
+                <td>@order.Name</td>
+                <td>@order.Start</td>
+                <td>@order.End</td>
+                <td>@order.Mark</td>
+                <td>@order.Model</td>
+                <td>@order.Price</td>
+                <td>@order.Comment</td>
+            </tr>
             }
         </tbody>
     </table>

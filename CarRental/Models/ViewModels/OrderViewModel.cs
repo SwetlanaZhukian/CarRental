@@ -15,10 +15,7 @@ namespace CarRental.Models.ViewModels
         public string Model{ get; set; }
         public double Price { get; set; }
         public string Comment { get; set; }
-        public OrderViewModel()
-        {
-
-        }
+      
 
 
     }
