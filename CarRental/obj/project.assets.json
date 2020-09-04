@@ -5817,19 +5817,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Женька\\.nuget\\packages\\": {}
+    "C:\\Users\\Светлана\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Женька\\Desktop\\Car\\CarRental\\CarRental\\CarRental.csproj",
+      "projectUniqueName": "D:\\учёба\\CarRental\\CarRental\\CarRental\\CarRental.csproj",
       "projectName": "CarRental",
-      "projectPath": "C:\\Users\\Женька\\Desktop\\Car\\CarRental\\CarRental\\CarRental.csproj",
-      "packagesPath": "C:\\Users\\Женька\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Женька\\Desktop\\Car\\CarRental\\CarRental\\obj\\",
+      "projectPath": "D:\\учёба\\CarRental\\CarRental\\CarRental\\CarRental.csproj",
+      "packagesPath": "C:\\Users\\Светлана\\.nuget\\packages\\",
+      "outputPath": "D:\\учёба\\CarRental\\CarRental\\CarRental\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Женька\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Светлана\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

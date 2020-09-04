@@ -20,18 +20,19 @@ namespace CarRental.Models.ViewModels
 
         [Required(ErrorMessage = "Не указана дата рождения")]
         [Display(Name = "Дата рождения")]
-        public DateTime DateOfBirth { get; set; }
+        [DataType(DataType.DateTime)]
+        public DateTime DateOfBirth { get; set; } 
 
         [Required(ErrorMessage = "Не указан  номер водительского удостоверения")]
         [Display(Name = "Номер водительского удостоверения")]
         public string NumberOfDriverLicense { get; set; }
 
-        [Required]
+        [Required( ErrorMessage = "Необходимо ввести пароль")]
         [DataType(DataType.Password)]
         [Display(Name = "Пароль")]
         public string Password { get; set; }
 
-        [Required]
+        [Required(ErrorMessage = "Необходимо ввести подтверждение пароля")]
         [Compare("Password", ErrorMessage = "Пароли не совпадают")]
         [DataType(DataType.Password)]
         [Display(Name = "Подтвердить пароль")]
