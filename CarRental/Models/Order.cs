@@ -13,8 +13,13 @@ namespace CarRental.Models
         public string Comment  { get; set; }
 
         public string UserId { get; set; }
-        public User User { get; set; }
+        public virtual User User { get; set; }
 
-        public List<Car> Cars { get; set; }
+        public virtual List<Car> Cars { get; set; }
+
+        public Order()
+        {
+            Cars = new List<Car>();
+        }
     }
 }

@@ -1,0 +1,58 @@
+﻿@model CarRental.Models.ViewModels.CreateOrderViewModel
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>Создание нового заказа</title>
+        <link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+        <script src="~/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        @if (Model.Cars == null)
+        {
+            <p>Выберете автомобиль</p>
+            <form method="get" asp-controller="Car" asp-action="Index">
+                <input type="submit" value="Выбрать автомобиль" />
+            </form>
+        }
+        else
+        {
+    <form method="post" asp-action="Create" asp-controller="Order">
+
+        <div class="form-group">
+            <dl class="d-lg-inline">
+                <dt>Марка автомобиля</dt>
+                <dd>@Model.Cars.Mark</dd>
+                <dt>Модель автомобиля</dt>
+                <dd>@Model.Cars.Model</dd>
+                <dt>Регистрационый номер </dt>
+                <dd>@Model.Cars.NumberOfCarRegistration</dd>
+                <dt>Цена за сутки</dt>
+                <dd>@Model.Cars.Price</dd>
+            </dl>
+        </div>
+        <div class="form-group">
+            <label class="form-label" asp-for="Start"></label>
+            <input  type="date" class="form-control" asp-for="Start" />
+            @*<span asp-validation-for="Start"></span>*@
+        </div>
+        <div class="form-group">
+            <label class="form-label" asp-for="End"></label>
+            <input   type="date" class="form-control" asp-for="End" />
+            @*<span asp-validation-for="End"></span>*@
+        </div>
+        <div class="form-group">
+            <label class="form-label" asp-for="Comment"></label>
+            <input class="form-control" asp-for="Comment" />
+            @*<span asp-validation-for="Comment"></span>*@
+        </div>
+        <div class="form-group text-center">
+            <button type="submit" class="btn btn-primary align-content-lg-center ">Заказать</button>
+        </div>
+    </form>
+
+
+                    }
+        </body>
+</html>
+

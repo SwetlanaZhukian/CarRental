@@ -211,8 +211,6 @@ D:\учёба\CarRental\CarRental\CarRental\bin\Debug\netcoreapp3.1\runtimes\win
 D:\учёба\CarRental\CarRental\CarRental\obj\Debug\netcoreapp3.1\CarRental.csprojAssemblyReference.cache
 D:\учёба\CarRental\CarRental\CarRental\obj\Debug\netcoreapp3.1\CarRental.AssemblyInfoInputs.cache
 D:\учёба\CarRental\CarRental\CarRental\obj\Debug\netcoreapp3.1\CarRental.AssemblyInfo.cs
-D:\учёба\CarRental\CarRental\CarRental\obj\Debug\netcoreapp3.1\CarRental.csproj.CoreCompileInputs.cache
-D:\учёба\CarRental\CarRental\CarRental\obj\Debug\netcoreapp3.1\CarRental.MvcApplicationPartsAssemblyInfo.cache
 D:\учёба\CarRental\CarRental\CarRental\obj\Debug\netcoreapp3.1\CarRental.RazorAssemblyInfo.cache
 D:\учёба\CarRental\CarRental\CarRental\obj\Debug\netcoreapp3.1\CarRental.RazorAssemblyInfo.cs
 D:\учёба\CarRental\CarRental\CarRental\obj\Debug\netcoreapp3.1\CarRental.TagHelpers.input.cache
@@ -238,3 +236,9 @@ D:\учёба\CarRental\CarRental\CarRental\obj\Debug\netcoreapp3.1\staticwebass
 D:\учёба\CarRental\CarRental\CarRental\obj\Debug\netcoreapp3.1\CarRental.dll
 D:\учёба\CarRental\CarRental\CarRental\obj\Debug\netcoreapp3.1\CarRental.pdb
 D:\учёба\CarRental\CarRental\CarRental\obj\Debug\netcoreapp3.1\CarRental.genruntimeconfig.cache
+D:\учёба\CarRental\CarRental\CarRental\obj\Debug\netcoreapp3.1\Razor\Views\Account\Login.cshtml.g.cs
+D:\учёба\CarRental\CarRental\CarRental\obj\Debug\netcoreapp3.1\Razor\Views\Order\Create.cshtml.g.cs
+D:\учёба\CarRental\CarRental\CarRental\bin\Debug\netcoreapp3.1\Castle.Core.dll
+D:\учёба\CarRental\CarRental\CarRental\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Proxies.dll
+D:\учёба\CarRental\CarRental\CarRental\obj\Debug\netcoreapp3.1\CarRental.csproj.CoreCompileInputs.cache
+D:\учёба\CarRental\CarRental\CarRental\obj\Debug\netcoreapp3.1\CarRental.MvcApplicationPartsAssemblyInfo.cache

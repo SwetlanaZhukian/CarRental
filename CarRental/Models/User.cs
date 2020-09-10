@@ -11,7 +11,11 @@ namespace CarRental.Models
         public DateTime DateOfBirth { get; set; }
         public string NumberOfDriverLicense{ get; set; }
 
-        public List<Order> Orders{ get; set; }
+        public virtual List<Order> Orders{ get; set; }
+        public User()
+        {
+            Orders = new List<Order>();
+        }
 
     }
 }
